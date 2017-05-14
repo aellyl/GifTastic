@@ -1,0 +1,43 @@
+h1{
+	text-align:center;
+	letter-spacing: 3px;
+}
+
+i{
+	margin:0 10px;
+}
+
+.row{
+	margin-bottom: 10px;
+}
+
+.topic{
+	margin:5px;
+	background-color: #7ba6c7;
+	border-color:#7ba6c7; 
+}
+
+#gifResults div{
+	float:left;
+	margin-right:10px;
+}
+
+.jumbotron{
+	background-color: #12aaaa;
+}
+
+.panel-heading{
+	background-color: #117272 !important;
+	color:white !important;
+
+}
+
+.panel-default{
+	border-color:#117272 !important;
+	border-width: 2px !important;
+
+}
+
+.panel{
+	margin-top:15px;
+}
