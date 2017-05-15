@@ -13,7 +13,7 @@
             })
             .done(function(response) {
 
-              console.log(response);
+              // console.log(response);
 
               for(var i =0;i<limit;i++)
               {
