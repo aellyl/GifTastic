@@ -6,7 +6,7 @@
       {
           $(".panel-title").html($(this).attr("data-name")+ " Gif Gallery");
           $("#gifResults").empty()
-          var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit="+limit+"&q="+$(this).attr("data-name");
+          var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit="+limit+"&q="+$(this).attr("data-name");
 
             $.ajax({
               url: queryURL,
